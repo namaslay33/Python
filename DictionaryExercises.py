@@ -1,4 +1,12 @@
 #Exercise 1
+# Write code to do the following:
+
+# 1. Print Elizabeth's phone number.
+# 2. Add a entry to the dictionary: Kareem's number is 938-489-1234.
+# 3. Delete Alice's phone entry.
+# 4. Change Bob's phone number to '968-345-2345'.
+# 5. Print all the phone entries.
+
 phonebook_dict = { 
   'Alice': '703-493-1834', 
   'Bob': '857-384-1234', 
@@ -27,6 +35,13 @@ for key,value in phonebook_dict.items():
     print(value)
 
 # Exercise 2
+# Write code to do the following: 
+
+# 1. Write a python expression that gets the email address of Ramit.
+# 2. Write a python expression that gets the first of Ramit's interests.
+# 3. Write a python expression that gets the email address of Jasmine.
+# 4. Write a python expression that gets the second of Jan's two interests.
+
 ramit = { 
   'name': 'Ramit', 
   'email': 'ramit@gmail.com', 
@@ -52,7 +67,7 @@ print("3. " + ramit ["friends"] [0] ["email"])
 print("4. " + ramit ["friends"] [1] ["interests"] [1])
 
 #Exercise 3 - Letter Summary
-
+# Write a letter_histogram function that takes a word as its input, and returns a dictionary containing the tally of how many times each letter in the alphabet was used in the word
 word = input("What is the word? \n")
 letter_histogram = {
 
@@ -64,6 +79,7 @@ for letter in word:
 print(letter_histogram)  
 
 #Exercise 4 - Word Summary
+# Write a word_histogram function that takes a paragraph of text as its input, and returns a dictionary containing the tally of how many times each word in the alphabet was used in the text.
 phrase = input("Enter a phrase: \n")
 
 phrase_histogram = {
@@ -77,7 +93,6 @@ for split in word_split:
 
 print(phrase_histogram)
 
-#Bonus Challenge
 
 
 
